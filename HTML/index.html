@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPF Review</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../HTML/index.html" class="active" >CPF Review</a></li>
+                <li><a href="../HTML/source.html">Source</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+          </nav>
+    </header>
+    
+    <main>
+        <div class="section">
+            <input type="text" name="cpf" id="inputCPF">
+            <label for="cpf"> <strong>CPF</strong></label>
+
+            <button type="submit" onclick="validarCPF()">Verificar</button>
+
+            <div id="res">
+                <p id="valid"><strong>Valido</strong></p>
+                <p id="invalid"><strong>Invalido</strong></p>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="../JavaScript/script.js"></script>
+</body>
+</html>
