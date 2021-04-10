@@ -26,6 +26,21 @@ a:hover{
     color: #FABD10;
     transition: 0.5s;
 }
+#logo{
+    color: #FABD10;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 3px;
+    margin-left: -10px;
+}
+span{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 20px;
+    display: block;
+    margin-top: -5px;
+    margin-left: -5px;
+}
 body{
     background-color: #000817;
 }

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+:root{
+    --mainColor: #FABD10;
+    --auxColor: #0CD8EB;
+    --secondaryColor: #C2920C;
+    --cardColor: #F2EDDA;
+}
+body{
+    background: var(--mainColor);
+    width: 100%;
+    height: 100%;
+}
+nav{
+    background: black;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+ul{
+    padding-top: 15px;
+    
+}
+li{
+    display: inline;
+    padding-right: 25px;
+}
+a{
+    text-decoration: none;
+    color: #fefefe;    
+}
+a:hover{
+    color:  var(--mainColor);
+    transition: 0.5s;
+}
+a.active{
+    color: var(--mainColor);
+}
+p{
+    position: absolute;
+    color: var(--auxColor);
+    font-size: 28px;
+    font-weight: bold;
+    top: 10px;
+    left: 7px;
+}
+span{
+    font-weight: normal;
+    font-style: italic;
+}
+p::first-letter{
+    color: var(--mainColor);
+}
+#lastLetter{
+    color: var(--mainColor);
+}
+.container{
+    font-family: roboto, normal, 'sans-serif';
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 178px;
+}
+.title{
+    color: var(--secondaryColor);
+        
+}
+.pointer{
+        cursor: pointer;
+
+}
+i{
+    margin-top: 17px;
+    padding: 25px;
+    background-color: var(--secondaryColor);
+    border-radius: 50%;
+    font-size: 64px;
+    color: var(--mainColor);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
