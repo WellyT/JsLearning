@@ -20,12 +20,30 @@
     </header>
 
     <main>
-        <div class="container">
-            <div class="pointer">
-                <h1 class="title">Click here to create a new note</h1>
-                <i class="fas fa-plus"></i>
+        <div id="containerMain" class="container">
+            <div class="pointer" >
+                    <h1 class="title">Click here to create a new note</h1>
+                    <i class="fas fa-plus"></i>
             </div>
         </div>
     </main>
+
+    <div class="modal-container" id="modal-promocao">
+        <div class="modal">
+            <button class="fechar">x</button>
+            <h2 id="modalId">Tell me what is you thinking</h2>
+            <form>
+                <input type="text" class="modalt" name="tituloModal" id="tituloModal">
+                <input type="text" class="modalt" name="parModal" id="parModal">
+                <input type="button" class="btnModal modalt" value="Anotar">
+            </form>
+        </div>
+    </div>
+
+ <script src="../JavaScript/flashNotesScript.js"></script>
+ <script>
+
+ </script>
+    
 </body>
 </html>
