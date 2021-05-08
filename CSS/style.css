@@ -6,7 +6,7 @@
 }
 nav{
     background: #2864AE;
-    width: 100%;
+    width: 100vw;
     height: 50px;
     text-align: center;
 }
@@ -122,4 +122,5 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active
 {
  -webkit-box-shadow: 0 0 0 30px #fdfdfd inset !important;
+ box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
 }
